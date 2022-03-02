@@ -1,0 +1,102 @@
+
+---------------------EMPIEZA AQUI-------------------
+  487  mkdir planets
+  488  cd ~/planets
+  489  cd ~/Escritorio/daw/"entornos de desarollo"/planets
+  490  cd /planets
+  491  cd ~\planets
+  492  cd C:\Users\bobi4\OneDrive\Escritorio\daw\entornos de desarrollo\planets
+  493  ls
+  494  cd planets/
+  495  git init
+  496  ls
+  497  ls -a
+  498  git status
+  499  git status
+  500  pwd
+  501  nano mars.txt
+  502  ls
+  503  cat mars.txt
+  504  git status
+  505  git add .
+  506  git status
+  507  git commit -m 'Star notes on Mars as a base'
+  508  git status
+  509  git log
+  510  git log --reverse
+  511  nano mars.txt
+  512  cat mars.txt
+  513  git status
+  514  git diff
+  515  git commit
+  516  git add .
+  517  git commit -m "Add concerns about effects of Mars' moon on Wolfman"
+  518  nano mars.txt
+  519  cat mars.txt
+  520  git diff
+  521  git add .
+  522  git diff
+  523  git diff --cached
+  524  git commit -m "Discuss concers about Mars' climate for Mummy"
+  525  git status
+  526  git log
+  527  git log -1
+  528  git log --oneline
+  529  mkdir directory
+  530  git status
+  531  git add directory
+  532  git status
+  533  git add 1
+  534  git log -1
+  535  nano mars.txt
+  536  nano venus.txt
+  537  git add mars.txt venus.txt
+  538  git commit -m "Write plans to start a base on Venus"
+  539  nano mars.txt
+  540  cat mars.txt
+  541  git diff HEAD mars.txt
+  542  git diff HEAD~1 mars.txt
+  543  nano mars.txt
+  544  cat mars.txt
+  545  git status
+  546  git chekout HEAD mars.txt
+  547  git checkout HEAD mars.txt
+  548  cat mars.txt
+  549  nano venus.txt
+  550  nano venus.txt
+  551  git add venus.txt
+  552  nano venus.txt
+  553  git commit -m "Comment on Venus"
+  554  git checkout HEAD venus.txt
+  555  cat venus.txt
+  556  mkdir results
+  557  touch a.dat b.dat results/a.out results/b.out
+  558  git status
+  559  touch .gitignore
+  560  cat .gitignore
+  561  touch b.txt > *.dat results/
+  562  cat b.txt
+  563  nano .gitignore
+  564  git status
+  565  git add .
+  566  git commit -m "commit de .gitignore"
+  567  git status
+  568  git add a.dat
+  569  git status
+  570  git remote add origin git@github.com:41b4/planets.git
+  571  git remote -v
+  572  git origin push
+  573  git push
+  574  git push origin master
+  575  git push -u origin master
+  576  git status
+  577  git log
+  578  cd ../reference/#timestamp
+  579  git help push
+  580  git remote add broken https://github.com/this/Urls/is/invalid
+  581  git push -u broken
+  582  git log oneline
+  583  git log --oneline
+  584  git log
+  585  git log
+  586  history >> history.txt
