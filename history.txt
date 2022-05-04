@@ -1,11 +1,6 @@
 
 ---------------------EMPIEZA AQUI-------------------
   487  mkdir planets
-  488  cd ~/planets
-  489  cd ~/Escritorio/daw/"entornos de desarollo"/planets
-  490  cd /planets
-  491  cd ~\planets
-  492  cd C:\Users\bobi4\OneDrive\Escritorio\daw\entornos de desarrollo\planets
   493  ls
   494  cd planets/
   495  git init
